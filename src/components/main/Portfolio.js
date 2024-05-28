@@ -1,7 +1,7 @@
 import './Portfolio.css';
 import { Typewriter } from 'react-simple-typewriter';
 import React from 'react';
-import Navbar from './Navbar'; // Adjust the import path if necessary
+import Navbar from './components/navbar/navbar/Navbar'; // Adjust the import path if necessary
 
 function Portfolio() {
   return (
