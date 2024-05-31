@@ -1,0 +1,6 @@
+.progress{
+    background-color: green;
+    height: 25px;
+    transition: ease-in-out in 0.5s;
+    border-radius: 10px;
+}
