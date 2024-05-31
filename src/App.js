@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-import Portfolio from './Portfolio';
+import Portfolio from './components/main/Portfolio';
 
 function App() {
   return (
