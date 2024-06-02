@@ -1,9 +1,9 @@
 import './Portfolio.css';
 import { Typewriter } from 'react-simple-typewriter';
 import React from 'react';
-import Navbar from '../navbar/navbar/Navbar';
+
 import Typing from './Typing';
-import Tile from '../tile/Tile';
+// import Tile from '../tile/Tile';
 import Banner from '../banner/Banner';
 import Progress from '../progressBar/ProgressBar';
 import { clear } from '@testing-library/user-event/dist/clear';
@@ -21,13 +21,13 @@ function Portfolio() {
   }, [percentage]);
   return (
     <div className="App">
-      <Navbar />
-      <Banner />
-      <Progress percentage={percentage}/>
+      
+      {/* <Banner />
+      <Progress percentage={percentage}/> */}
       <div className="main-page">
         <h2 id="name">Hi, My name is</h2>
         <h1>Debashis Maharana</h1>
-        <Typing
+        {/* <Typing
           text ={["Developer",
           "Learner",
           "Coder",
@@ -40,9 +40,9 @@ function Portfolio() {
           duration={1000}
 
         
-         />
-        {/* <h2 id="typewriter" style={{ fontWeight: 'normal' }}>
-        <span className='typewriter-front'>And, I'm a</span>{' '}
+         /> */}
+        <h2 id="typewriter" style={{ fontWeight: 'normal' }}>
+        <span className='typewriter-front'> I'm a</span>{' '}
           <span style={{ color: '#16ff00', fontWeight: 'bold' }}>
             <Typewriter
               words={['Developer', 'Learner', 'Coder', 'Tech Enthusiast!']}
@@ -54,8 +54,8 @@ function Portfolio() {
               delaySpeed={1000}
             />
           </span>
-        </h2> */}
-        <Tile
+        </h2>
+        {/* <Tile
           header={"Class is going on"}
           subHeader={"Everyone is make a project"}
           img={"https://cdn.dribbble.com/users/3484830/screenshots/16787618/media/b134e73ef667b926c76d8ce3f962dba2.gif"}
@@ -64,7 +64,7 @@ function Portfolio() {
           linkText={"Learn More"}
           position={"left"}
 
-        />
+        /> */}
 
       </div>
     </div>

@@ -1,11 +1,14 @@
+
 .main-page{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 89.5vh;
+    height: 89.6vh;
     background-color: #02001e;
+    background-image: url(https://raw.githubusercontent.com/matteobruni/tsparticles/v1/presets/stars/images/sample.png);
 }
+
 .main-page #name{
     color:aliceblue
 }

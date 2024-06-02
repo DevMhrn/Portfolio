@@ -40,7 +40,8 @@
     width:0 ;
     height: 2px;
     background: #e2ff08;
-    transition: width .3s;
+    transition: width 0.5s;
+    
   }
   .nav-item a:hover::after{
     width: 100%;
@@ -48,8 +49,10 @@
     
   }
   .nav-item a:hover{
-    font-size: larger;
-    transition: ease-in-out;
+    transform: scale(1.1);
+    color: #fff;
+  
+    
   }
 
   
